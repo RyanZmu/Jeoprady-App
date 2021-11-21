@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <meta name="description" content="Kenzie" />
+    <meta name="author" content="Kenzie" />
+    <meta name="keywords" content="Kenzie" />
+
+    <!-- Title Page-->
+    <title>Trivia App</title>
+
+    <!-- CSS-->
+    <link href="style.css" rel="stylesheet" media="all" />
+  </head>
+
+    <!-- <h1 class='pageHeader'>Jeoprady In JS!</h1> -->
+    
+    <!-- allow for 2 players in future -->
+    
+    <aside class='playerScore'></aside>
+    
+    <h4 class='nameHeader'>ENTER YOUR NAME TO START GAME!
+    <br>
+    <br><button class='playerAdd'>
+      Click to Enter Name
+    </button> 
+    <br>
+    <br>
+      Board categories and questions are random, Test your Jeoprady wit!
+       <br>
+       <br>
+      Click on any value under your desired category! Try to clear the board.
+       <br>
+       <br>
+     <p style="color: yellow; margin: 1px;">**Values on the board may be mixed up and repeated - WIP ** <br>
+     **Spaces/Punctuation and Capitalization Don't Matter! **</p>
+    </h4>
+
+    <section class='questionDisplay'>
+      <h2 class=clueHeading></h2>
+      <div class='questionView'></div>
+    </section>
+
+    <section class='answerDisplay'>
+      <div class='answerView'></div>  
+      <form class='answerForm'>
+        <input type="text" class='answerInput' placeholder="Answer Here">
+        <button class='answerButton'>Who/What Is?...</button>
+        <button class='revealButton'>See Answer</button>
+      </form>
+    </section>
+  
+    <button class='newGame'>Reset Game!</button>
+    <main class='boardDisplay'>
+      <!-- display board here -->
+      <table id='jeopradyBoard'>
+        <th class='categoryHeaders'> </th>
+      </table>
+      <!--  -->
+    </main>
+
+
+    <script src="./clue.js"></script>
+    <script src="./player.js"></script>
+    <script src="./boardLogic.js"></script>
+  </body>
+</html>

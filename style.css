@@ -1,0 +1,123 @@
+/* Write your CSS Here. */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./images/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;   
+    background-size: cover;
+    background-attachment: fixed;
+    color:white;
+}
+
+th {
+    /* display: flex;
+    flex-flow: row wrap; */
+    /* border:1px solid black; */
+    color: white;
+}
+
+button{
+    background-color: hsla(240, 66%, 30%, 0.35);
+    color: white;
+    height: 25px;
+    border-radius: 30px;
+}
+
+button:active {
+    background-color: hsla(234, 87%, 50%, 0.35);
+    box-shadow: 1px 1px 15px white;
+}
+
+td {
+     display: flex;
+    flex-flow: row wrap; 
+    border:1px solid black;
+    padding:0.25rem;
+    margin:2rem 6rem;
+    width: 100px;
+    height: 100px;
+    align-content: center;
+    justify-content: center;
+    color: yellow;
+}
+
+td:hover {
+    border: 1px solid white;
+    box-shadow: 1px 1px 15px white;
+}
+
+td:active {
+    box-shadow: 1px 1px 10px white;
+    
+}
+
+input {
+    border-radius: 30px;
+    text-align: center;
+}
+
+.playerScore {
+    margin: 1rem 55rem;
+    /* border: solid 1px black; */
+    width:10rem;
+    background-color: hsla(240, 66%, 30%, 0.35);
+}
+
+.playerNameDisplay {
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 2rem;
+}
+
+.boardDisplay{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-evenly; 
+    border: 1px solid black;
+    background-color: hsla(240, 66%, 30%, 0.35);
+}
+
+.questionDisplay {
+    display: flex;
+    flex-flow: column wrap;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: hsla(240, 66%, 30%, 0.35);
+    padding:1rem;
+}
+
+.answerDisplay {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    /* background-color: hsla(240, 66%, 30%, 0.35); */
+    margin-top:1rem;
+}
+
+.questionView {
+    color:white;
+}
+
+.nameHeader {
+    text-align: center;
+    background-color: hsla(240, 66%, 30%, 0.35);
+    padding: 15px;
+}
+
+.nameInput {
+    margin:10px;
+}
+
+.categoryHeaders {
+    border:1px solid black;
+}
+
+.newGame {
+    margin:0.2rem;
+}
