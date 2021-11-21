@@ -9,7 +9,7 @@ Follow the instructions provided on my.kenzie.academy for this assignment.
 
 - Interact with the jService API and pull random categories and questions to build a Jeoprady board.
 
-- Display my understanding of OOJS programming and also Functional Programming to show my ability to create responsive webpages that can react to user interaction.
+- Display my understanding of OOP and also Functional Programming to show my ability to create responsive webpages that can react to user interaction.
 
 ## How To Play
 <details>
