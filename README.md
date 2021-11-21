@@ -11,7 +11,7 @@ Follow the instructions provided on my.kenzie.academy for this assignment.
 
 - Display my understanding of OOJS programming and also Functional Programming to show my ability to create responsive webpages that can react to user interaction.
 
-##How To Play
+#How To Play
 <details>
 - Enter a player name and load a randomized Jeoprady board.
 
@@ -26,7 +26,7 @@ Follow the instructions provided on my.kenzie.academy for this assignment.
 - Don't worry about Punctuation,Captialization or Spacing for the answers. 
 </details>
 
-##To Do
+#To Do
 <details>
 - Display the proper question values in ascending order 100-600
 
@@ -51,7 +51,7 @@ Follow the instructions provided on my.kenzie.academy for this assignment.
 - Break out the boardLogic file into another file or more functions. Too verbose.
 </details>
 
-##Known Issues
+#Known Issues
 <details>
 - Repeated questions on the board.
 
