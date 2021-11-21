@@ -40,7 +40,7 @@ Follow the instructions provided on my.kenzie.academy for this assignment.
 
 - Align my code with standard.js code style.
 
-- Remove puncuation from the answers so the user doesn't need to worry about ". -, ', etc. - Done
+- Remove puncuation from the answers so the user doesn't need to worry about ". -, ', etc. (Implemented)
 
 - Get rid of repeated questions on the board.
 
